@@ -1,0 +1,3 @@
+// a script to list all documents with the name
+// start by Holberton in school collection 
+db.school.find({name: /^Holberton/ })
